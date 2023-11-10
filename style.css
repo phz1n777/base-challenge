@@ -1,0 +1,16 @@
+body { background-color: antiquewhite; }
+
+/* pc */
+@media (min-width:1200px) and (max-width:1919px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+
+
+/* notebook */
+@media (min-width:992px) and (max-width:1119px) {
+    body{
+        background-color: gainsboro;
+    }
+}
