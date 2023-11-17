@@ -124,3 +124,18 @@ header{
 .paragrafos {
     font-size: 1.15em;
 }
+
+.input-email{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 15%;
+    margin: 5px;
+}
+
+.button-email{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
