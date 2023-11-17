@@ -5,12 +5,14 @@ body { background-color: #0b5f8e;
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
+    overflow-x: hidden;
 }
 
 /* pc */
 @media (min-width:1200px) and (max-width:1919px) {
     body{
         background-color: #0b5f8e;
+        overflow-x: hidden;
     }
 }
 
@@ -18,6 +20,13 @@ body { background-color: #0b5f8e;
 @media (min-width:992px) and (max-width:1119px) {
     body{
         background-color: rgb(84,203,208);
+        font: 1.05em/1.3 My Gill Sans, Lato, sans-serif;
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: center;
+        overflow-x: hidden;
     }
 }
 
@@ -33,7 +42,7 @@ header{
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background-image: url("image/fundo_hp.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;

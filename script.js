@@ -2,7 +2,7 @@ const button = document.querySelector("button");
 const inputEmail = document.querySelector("#email");
 
 
-// criando um elemento p
+
 const pMensagem = document.createElement('p');
 
 const clearForm = () => {
