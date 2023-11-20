@@ -28,7 +28,7 @@ button.addEventListener(("click"), function(event) {
 function slider() {
     contador++;
 
-    if (contador > imagens.length - 1) {
+    if (contador > imagens.length - 2) {
         contador = 0;
     }
 
