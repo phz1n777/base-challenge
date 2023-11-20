@@ -52,7 +52,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 2rem;
-    background-image: url("image/fundo_hp.png");
+    background-image: url("image/background_novo.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,8 @@ header{
 }
 
 .nav-link:hover {
-    color: #0b5f8e;
+    color: #000000;
+    /* color: #0b5f8e; */
 }
 
 .textos {
@@ -132,6 +133,18 @@ header{
     font-size: 1.15em;
 }
 
+.carrocel{
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: hidden;
+    width: 1250px;
+    height: 570px;
+}
+.container{
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
 .input-email{
     padding: 10px;
     border: 1px solid white;
@@ -146,3 +159,24 @@ header{
     color: #000000;
     background-color: rgb(255, 255, 255);
 }
+
+.footer {
+    background-color: rgb(49, 174, 181);
+    margin: auto;
+    padding: 25px;
+    /* background-color: rgb(22, 202, 208); */
+}
+
+.footer_paragrafo {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.mapa {
+    display: flex;
+    text-align: right;
+    ;
+}
+
