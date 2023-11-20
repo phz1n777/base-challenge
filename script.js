@@ -8,6 +8,10 @@ const pMensagem = document.createElement('p');
 const clearForm = () => {
   inputEmail.value = '';
 }
+const box = document.querySelector(".container");
+const imagens = document.querySelectorAll(".container img");
+
+let contador = 0;
 
 button.addEventListener(("click"), function(event) {
   event.preventDefault();
@@ -21,19 +25,16 @@ button.addEventListener(("click"), function(event) {
   clearForm();
 });
 
+function slider() {
+    contador++;
 
-// const box = document.querySelector(".container");
-// const imagens = document.querySelectorAll(".container img");
+    if (contador > imagens.length - 1) {
+        contador = 0;
+    }
 
-// let contador = 0;
+    box.style.transform = ` translateX(${-contador * 300}px)`
+}
+setInterval(slider , 3000);
 
-// function slider() {
-//     contador++;
 
-//     if (contador > imagens.length - 1) {
-//         contador = 0;
-//     }
 
-//     box.style.transform = ` translateX(${-contador * 1250}px)`
-// }
-// setInterval(slider , 2000);
